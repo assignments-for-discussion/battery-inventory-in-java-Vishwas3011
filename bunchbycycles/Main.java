@@ -10,6 +10,15 @@ public class Main {
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
     return counts;
+    if(counts==399){
+       System.out.println("low");
+    }
+     else if(counts>=400){
+       System.out.println("medium");
+     }
+   else (counts>=918){
+   System.out.println("high");
+   }
   }
 
   static void testBucketingByNumberOfCycles() {
