@@ -10,7 +10,7 @@ public class Main {
   static CountsByUsage countBatteriesByUsage(int[] cycles) {
     CountsByUsage counts = new CountsByUsage();
     return counts;
-    if(counts==399){
+    if(counts<=399){
        System.out.println("low");
     }
      else if(counts>=400){
